@@ -1,5 +1,5 @@
 #body{
-    background-color:  white;
+    background-color:  black;
 } 
 #cart{
     text-decoration: none;
@@ -72,9 +72,9 @@ color: #202c45;;
     width: 100%;
     height: auto;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    background-color:  rgb(89, 192, 236);
+    /* background-color:  rgb(89, 192, 236); */
     border-radius: 20px;
-    
+    background: linear-gradient(to bottom right, blue, rgb(89, 192, 236));
 }
 #nav{
    
@@ -82,12 +82,12 @@ color: #202c45;;
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    background-color:  rgb(89, 192, 236);
+    /* background-color:  rgb(89, 192, 236); */
     width: 80%;
     height: 100%;
      /* border: 1px solid red; */
     margin: auto;
-    
+    /* background: linear-gradient(to bottom right, blue, rgb(89, 192, 236)); */
 }
 
 #nav>div:nth-child(2){
@@ -217,7 +217,8 @@ color: #202c45;;
 } */
  #login{
     padding: 6px 20px 6px 20px;
-    background-color: rgb(89, 192, 236);;
+    /* background-color: rgb(89, 192, 236);; */
+    background: linear-gradient(to bottom right, blue, rgb(89, 192, 236));
      border: 0px;
     border-radius: 5px;
     font-weight: 500;
@@ -243,6 +244,7 @@ color: #202c45;;
     font-weight: 500;
     /* margin-left: 15px; */
     color: white;
+    border-radius: 10px;
 }
 #signup>a{
     text-decoration: none;
@@ -298,10 +300,11 @@ background-color: rgb(89, 192, 236);
 
 
 #user-detail-name{
-    height: 300px;
+    height: 400px;
     width:100%;
-    margin-top: 8%;
+    margin-top: 10%;
     /* border: 1px solid red; */
+    background-color: black;
     display: flex;
 }
 #user-detail-name>div{
@@ -310,23 +313,118 @@ background-color: rgb(89, 192, 236);
   /* border: 1px solid blue; */
 }
 #user-detail-name>div:nth-child(1){
-    text-align: right;
+    /* text-align: right;
     padding-top: 5%;
-    padding-right: 8%;
+    padding-right: 8%; */
+    padding-left: 4%;
 }
 #user-detail-name>div:nth-child(1)>h2{
-    color: black;
+    color:   rgb(89, 192, 236);
+    font-size: 500%;
 }
 #user-detail-name>div:nth-child(1)>h3{
-    color: black;
+    color: white;
+     font-size: 300%;
 }
 #user-detail-name>div:nth-child(1)>h6{
-    color: black;
+    color: white;
+    font-size: 200%;
 }
 #user-detail-name>div:nth-child(2){
     text-align: center;
 }
 #user-detail-name>div:nth-child(2)>img{
-      border-radius: 50%;
+      border-radius: 80%;
+      border: 15px solid rgb(89, 192, 236);
 }
- 
+
+
+/* about section */
+#about2{
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    margin-top: 4%;
+}
+#about2>div{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid blue; */
+    margin:auto;
+    text-align: center;
+     
+}
+#about2>div>h3{
+    font-weight: bolder;
+    font-size: 250%;
+    color: rgb(89, 192, 236);
+}
+#about2>div>p{
+    font-size: 200%;
+    color:white;
+}
+#about2>div>h1{
+    color: white;
+}
+#about2>div>h6{
+    color: white;
+}
+#about2>div>hr{
+     
+    color:white;
+}
+/* skills section */
+#skills2{
+    height: 600px;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-top: 3%;
+    background-color: aliceblue;
+}
+#skills2>div:nth-child(1){
+    width: 100%;
+    height: 40%;
+    /* border: 1px solid blue; */
+    padding-top: 4%;
+    padding-left: 8%;
+}
+#skills2>div:nth-child(1)>h1{
+    font-weight:bolder;
+    font-size: 400%
+}
+#skills2>div:nth-child(1)>h3{
+    font-weight:100;
+    font-size: 300%
+}
+#skills2>div:nth-child(2){
+    width: 100%;
+    height: 60%;
+    /* border: 1px solid green; */
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding-left: 10%;
+}
+#skills2>div:nth-child(2)>div{
+    width: 40%;
+    height:  auto;
+    /* border: 1px solid red; */
+    text-align: center;
+    padding-top: 2%;
+}
+#skills2>div:nth-child(2)>div>div{
+    padding: 10%;
+    background-color: white;
+    border-radius: 15%;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    transition: 1s;
+}
+#skills2>div:nth-child(2)>div>div:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+#skills2>div:nth-child(2)>div>div>img{
+    border-radius: 10%;
+    
+    
+}
