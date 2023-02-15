@@ -300,7 +300,7 @@ background-color: rgb(89, 192, 236);
 
 
 #user-detail-name{
-    height: 400px;
+    height: auto;
     width:100%;
     margin-top: 10%;
     /* border: 1px solid red; */
@@ -318,18 +318,62 @@ background-color: rgb(89, 192, 236);
     padding-right: 8%; */
     padding-left: 4%;
 }
+
+/* trying transection */
 #user-detail-name>div:nth-child(1)>h2{
     color:   rgb(89, 192, 236);
-    font-size: 500%;
+    font-size: 450%;
+    /* color: #252839; */
+    /* color: black;
+    -webkit-text-stroke: 0.3vm #383d52;
+    text-transform: inherit; */
 }
+
+
+
+
+#user-detail-name>div:nth-child(1)>h6{
+   
+    font-size: 200%;
+    
+    color: black;
+    -webkit-text-stroke: 0.3vm #383d52;
+    text-transform: inherit;
+}
+
+#user-detail-name>div:nth-child(1)>h6::before{
+    content: attr(data-text);
+    position:absolute;
+    top: 10;
+    left: 5;
+    width: 0;
+    height: 5%;
+    color: white;
+    -webkit-text-stroke: 0vw #383d52;
+    /* border-right: 2px solid white; */
+    overflow: hidden;
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animate{
+    0%,10%,100%{
+        width: 0;
+    }
+    70%,90%{
+        width: 25%;
+    }
+}
+
+
+/* ends transietion */
 #user-detail-name>div:nth-child(1)>h3{
     color: white;
      font-size: 300%;
 }
-#user-detail-name>div:nth-child(1)>h6{
+/* #user-detail-name>div:nth-child(1)>h6{
     color: white;
     font-size: 200%;
-}
+} */
 #user-detail-name>div:nth-child(2){
     text-align: center;
 }
@@ -338,16 +382,70 @@ background-color: rgb(89, 192, 236);
       border: 15px solid rgb(89, 192, 236);
 }
 
+@media screen and (min-width:0px) and (max-width:1500px) {
+    #user-detail-name>div:nth-child(1)>h6{
+        font-size: 150%;
+    }
+}
+@media screen and (min-width:0px) and (max-width:1061px) {
+    #user-detail-name>div:nth-child(1)>h6{
+        font-size: 60%;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:850px) {
+#user-detail-name{
+   margin-top: 25%;
+    flex-direction: column;
+}
+#user-detail-name>div{margin: auto;}
+#user-detail-name>div>img{
+    width: 100%;
+}
+#user-detail-name>div:nth-child(1)>h2{
+    font-size: 100%;
+}
+#user-detail-name>div:nth-child(1)>h6{
+    font-size: 70%;
+}
+#user-detail-name>div:nth-child(1)>h6::before{
+    height: 2%;
+}
+}
+@media screen and (min-width:0px) and (max-width:550px) {
+    #user-detail-name>div:nth-child(1)>h6{
+        font-size: 40%;
+    }
+    #user-detail-name>div:nth-child(1)>h6::before{
+        height: 1%;
+    }
+}
 
 /* about section */
 #about2{
-    height: 400px;
+    height: auto;
+    width: 100%;
+     /* border: 1px solid blue; */
+     margin-top: 4%;
+}
+#about2>div:nth-child(1){
+    height: 15%;
+    width: 100%;
+    /* border: 1px solid red; */
+    /* display: flex; */
+    
+    text-align: center;
+     
+}
+#about2>div:nth-child(2){
+    height: 85%;
     width: 100%;
     /* border: 1px solid red; */
     display: flex;
-    margin-top: 4%;
+   
+     
 }
-#about2>div{
+#about2>div>div{
     height: 100%;
     width: 50%;
     /* border: 1px solid blue; */
@@ -355,28 +453,42 @@ background-color: rgb(89, 192, 236);
     text-align: center;
      
 }
+#about2>div>div:nth-child(1){
+    padding-top: 2%;
+}
 #about2>div>h3{
     font-weight: bolder;
     font-size: 250%;
     color: rgb(89, 192, 236);
 }
-#about2>div>p{
+#about2>div>div>p{
     font-size: 200%;
     color:white;
 }
-#about2>div>h1{
+#about2>div>div>h1{
     color: white;
 }
-#about2>div>h6{
+#about2>div>div>h6{
     color: white;
 }
 #about2>div>hr{
      
     color:white;
 }
+
+
+
+@media screen and (min-width:0px) and (max-width:1500px) {
+    #about2>div:nth-child(2){
+        flex-direction: column;
+    }
+    #about2>div:nth-child(2)>div>img{
+        width: 100%;
+    }
+    }
 /* skills section */
 #skills2{
-    height: 600px;
+    height: auto;
     width: 100%;
     /* border: 1px solid red; */
     margin-top: 3%;
@@ -428,3 +540,18 @@ background-color: rgb(89, 192, 236);
     
     
 }
+
+
+@media screen and (min-width:600px) and (max-width:900px) {
+
+#skills2>div:nth-child(2){
+grid-template-columns: repeat(4,1fr);
+}
+}
+
+@media screen and (min-width:0px) and (max-width:600px) {
+
+    #skills2>div:nth-child(2){
+    grid-template-columns: repeat(2,1fr);
+    }
+    }
