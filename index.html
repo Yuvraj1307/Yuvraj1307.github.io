@@ -30,26 +30,26 @@
               
                 <!-- first dropdown box ends -->
                 
-                <div id="home" id="second_option">
+                <div   id="second_option">
                     
-                    <button id="login"><a href="#user-detail-name">Home</a></button>
+                    <button id="login"><a class="nav-link home" href="#home">Home</a></button>
                </div>
                 <!-- second option in nav-bar starting -->
-                <div id="about" class="about section" id="second_option">
+                <div   class="about section" id="second_option">
                     
-                    <button id="login"><a href="#about2">about</a></button>
+                    <button id="login"><a class="nav-link about" href="#about">about</a></button>
                </div>
                 <!-- second option in nav-bar ending -->
 
                 <!-- third option in nav-bar starting -->
-                <div  id="skills" id="third_option">
-                    <button id="login"><a href="#skills2">skills</a></button>
+                <div   id="third_option">
+                    <button id="login"><a class="nav-link skills"  href="#skills">skills</a></button>
                 </div>
                 <!-- third option in nav-bar ending -->
 
                 <!-- fourth option in nav-bar startyin -->
-                <div id="projects" class="dropdown">
-                    <button  id="login"><a href="#projects">projects</a></button>
+                <div   class="dropdown">
+                    <button  id="login"><a class="nav-link projects" href="#projects">projects</a></button>
                       
                          
                 </div>
@@ -65,14 +65,14 @@
 
                     <!--  signup button starts-->
                     <div id="contact">
-                        <button id="login"><a href="#contact">contact</a></button>
+                        <button id="login"><a class="nav-link contact" href="#contact">contact</a></button>
                         <!-- <button id="signup"><a href="./HTMLPAGES/adminlogin.html">contack</a></button> -->
                     </div>
                     <!-- signup button ends -->
                     <!-- Admin button starts-->
                     <div>
 
-                        <button id="login"><a href="./photos/Yuvraj_Maharshi_Resume.pdf"download>Resume</a></button>
+                        <button id="login"><a class="nav-link resume" href="./photos/Yuvraj_Maharshi_Resume.pdf"download>Resume</a></button>
                         <!-- <button id="signup"><a href="./HTMLPAGES/adminlogin.html">Resume</a></button> -->
                     </div>
                     <!-- Admin button ends -->
@@ -100,7 +100,7 @@
                       
                         <div>
                             <div id="second_option">
-                                <a href=".nav-link home">
+                                <a class="nav-link home" href="#home">
                                     <button type="button" id="dropdownMenu2">
                                         Home
                                     </button>
@@ -111,7 +111,7 @@
 
                             <!-- second option in nav-bar starting -->
                             <div id="second_option">
-                                <a href=".nav-link about">
+                                <a class="nav-link about" href="#about">
                                     <button type="button" id="dropdownMenu2">
                                        About
                                     </button>
@@ -121,7 +121,7 @@
 
                             <!-- third option in nav-bar starting -->
                             <div id="second_option">
-                                <a href=".nav-link skills">
+                                <a class="nav-link skills" href="#skills">
                                     <button class="Pricing" type="button" id="dropdownMenu2">
                                        Skills
                                     </button>
@@ -131,7 +131,7 @@
 
                             <!-- fourth option in nav-bar startyin -->
                             <div id="second_option">
-                                <a href=".nav-link projects">
+                                <a  class="nav-link projects" href="#projects">
                                     <button class="Pricing" type="button" id="dropdownMenu2">
                                         Projects
                                     </button>
@@ -142,7 +142,7 @@
                             <!-- fourth option in nav-bar ending -->
                                     
                             <div id="second_option">
-                                <a href="Pricing.html">
+                                <a class="nav-link contact" href="#stastistics">
                                     <button class="Pricing" type="button" id="dropdownMenu2">
                                            Stastistics
                                     </button>
@@ -151,7 +151,7 @@
 
                                       
                             <div id="second_option">
-                                <a href=".nav-link contact">
+                                <a class="nav-link contact" href="#contact">
                                     <button class="Pricing" type="button" id="dropdownMenu2">
                                            Contact
                                     </button>
@@ -160,7 +160,7 @@
 
                                       
                             <div id="second_option">
-                                <a href=".nav-link resume">
+                                <a class="nav-link resume" href="./photos/Yuvraj_Maharshi_Resume.pdf" download>
                                     <button class="Pricing" type="button" id="dropdownMenu2">
                                            Resume
                                     </button>
@@ -183,18 +183,18 @@
         </div>
     </div>
 
-    <div id="user-detail-name" class="nav-link home">
-        <div><h3>Hi, I am</h3><h2 data-text="Yuvraj Maharshi">Yuvraj Maharshi</h2><h6 data-text="Full Stack Web Developer">Full Stack Web Developer</h6><button id="signup"><a href="./photos/Yuvraj_Maharshi_Resume.pdf" download>Resume</a></button></div>
+    <div id="home"  >
+        <div><h3>Hi, I am</h3><h2 id="user-detail-name" data-text="Yuvraj Maharshi">Yuvraj Maharshi</h2><h6 data-text="Full Stack Web Developer">Full Stack Web Developer</h6><button id="signup"><a href="./photos/Yuvraj_Maharshi_Resume.pdf" download>Resume</a></button></div>
         <div><img height="90%" src="./photos/fhpk;3.jpg" alt="Yuvraj's image"></div>
     </div>
 
       <!-- about section -->
              
-         <div id="about2" class="nav-link about">
+         <div id="about" class="nav-link about">
             <div><h3>About Me</h3>
                 <hr></div>
             <div>
-                <div>
+                <div  id="user-detail-intro">
                 
                 
                     <h1>I'm Yuvraj Maharshi</h1>
@@ -215,7 +215,7 @@
 
 
     <!-- skills section -->
-    <div id="skills2" class="nav-link skills">
+    <div id="skills" class="nav-link skills">
            <div><h1>Skillset</h1><h3>Technologies I use in my development:</h3></div>
            <div>
                 <div><div><img width="100%" src="./photos/express.png" alt=""></div><p>Express js</p></div>
