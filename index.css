@@ -791,3 +791,86 @@ background-color: aliceblue;
               
           }
               }
+
+
+
+
+
+              
+/* git calander starts */
+#alignethem{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: auto;
+  width: 70%;
+}
+@media all and (min-width: 350px) and (max-width: 940px) {
+  #alignethem{
+   
+    grid-template-columns: repeat(2,1fr);
+  
+  }
+}
+
+@media all and (min-width: 0px) and (max-width: 351px) {
+  #alignethem{
+   
+    grid-template-columns: repeat(1,1fr);
+  
+  }
+}
+
+/* git calender */
+.code {
+  font-family: "Poppins", sans-serif;
+  color: #7b7b7b;
+  font-weight: 600;
+  font-size: 60px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.calendar {
+  color: black;
+  background-color: white;
+  transition: all 0.5s;
+  width: 70%;
+}
+.calendar:hover {
+  background-color: black;
+}
+
+#streak{
+  display: flex;
+  /* max-width: 100%; */
+  justify-content: center;
+}
+#github-streak-stats{
+  max-width: 100%;
+}
+#github-top-langs{
+  max-width: 100%;
+}
+#github-stats-card{
+  max-width: 100%;
+}
+
+@media all and (min-width: 150px) and (max-width: 500px) {
+  .code {
+   
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .calendar {
+    color: black;
+    background-color: white;
+    transition: all 0.5s;
+    width: 90%;
+    font-size: 15px;
+  }
+}
+
+
+
+/* git calnder ends */
+
