@@ -627,6 +627,11 @@ grid-template-columns: repeat(4,1fr);
     gap: 10px;
      
 }
+
+/* #project-card{
+  padding-left: 3%;
+  padding-right: 3%;
+} */
 #projects>div{
     width: 80%;
   /* border: 1px solid blue; */
@@ -634,7 +639,7 @@ grid-template-columns: repeat(4,1fr);
 background-color: aliceblue;
   margin: auto;
   margin-top: 3%;
-  padding: 3% 0 3% 0;
+  padding: 3% 3% 3% 3%;
   border-radius: 20px;
 }
 #projects>div>a>button{
