@@ -186,10 +186,15 @@ function setTyper(element, words) {
 
 //Resume button line
 document.getElementById('resume-link-2').addEventListener("click",()=>{
-  window.location.assign("https://drive.google.com/file/d/14E1Rx27bgiBs6zp8RqJBsc3xOiKSRmHy/view?usp=sharing","_blank")
+  window.open("https://drive.google.com/file/d/14E1Rx27bgiBs6zp8RqJBsc3xOiKSRmHy/view?usp=sharing","_blank")
 })
 
  
 
 // or enable responsive functionality:
-GitHubCalendar(".calendar", "Yuvraj1307", { responsive: true });
+// GitHubCalendar(".calendar", "Yuvraj1307", { responsive: true , private:true});
+
+
+function fun(){
+  window.open("https://drive.google.com/file/d/14E1Rx27bgiBs6zp8RqJBsc3xOiKSRmHy/view?usp=sharing","_blank")
+}
