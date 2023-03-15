@@ -253,9 +253,9 @@
       letter-spacing: 3px;
     }
 
+    /* id="user-detail-name" */
 
-
-    #str {
+    #user-detail-name {
         padding-left: 20px;
         height: auto;
         font-family: "Poppins", sans-serif;
@@ -266,7 +266,7 @@
         margin-top: -10px;
         transition: all 1s ease-in;
       }
-      #str:hover {
+      #user-detail-name:hover {
         transform: translatex(50px);
         color: rgb(47, 180, 237);
       }
@@ -794,7 +794,16 @@ background-color: aliceblue;
 
 
 
-
+#statistics{
+  margin-top: 5%;
+  text-align: center;
+}
+#statistics>h1:nth-child(1){
+  color: rgb(89, 192, 236);
+}
+#statistics>hr{
+  color: white;
+}
 
               
 /* git calander starts */
