@@ -192,4 +192,4 @@ document.getElementById('resume-link-2').addEventListener("click",()=>{
  
 
 // or enable responsive functionality:
-// GitHubCalendar(".calendar", "Yuvraj1307", { responsive: true });
+GitHubCalendar(".calendar", "Yuvraj1307", { responsive: true });
