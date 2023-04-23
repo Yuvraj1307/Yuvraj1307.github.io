@@ -34,6 +34,8 @@
  }
 
 
+
+
  nav .logo {
     color: white;
     font-size: 30px;
@@ -161,7 +163,22 @@
     }
   }
 
+  #resume-button-1{
+    border: none;
+    background-color: transparent;
   
+  }
+  #resume-button-1>a{
+    color: white;
+  }
+  nav ul li button a{
+    text-decoration: none;
+    
+    border: none;
+    color: white;
+    transition: all 0.5s ease-in-out;
+    letter-spacing: 1px;
+  }
 
   /* the first div css code starts */
   #resume-button-2 {
@@ -182,7 +199,9 @@
     #resume-button-2{
         border-radius: 8px;
         border: none;
+        background-color: transparent;
         }
+       
         /* cha */
         #resume-button-2 > a {
           background-color:  rgb(89, 192, 236);
@@ -490,6 +509,10 @@
     margin:auto;
     text-align: center;
      
+}
+
+#user-detail-intro{
+  color: white;
 }
 #about>div>div:nth-child(1){
     padding-top: 2%;
