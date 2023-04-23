@@ -195,6 +195,6 @@ document.getElementById('resume-link-2').addEventListener("click",()=>{
 GitHubCalendar(".calendar", "Yuvraj1307", { responsive: true , private:true});
 
 
-function fun(){
-  window.open("https://drive.google.com/file/d/14E1Rx27bgiBs6zp8RqJBsc3xOiKSRmHy/view?usp=sharing","_blank")
-}
+// function fun(){
+//   window.open("https://drive.google.com/file/d/14E1Rx27bgiBs6zp8RqJBsc3xOiKSRmHy/view?usp=sharing","_blank")
+// }
