@@ -330,9 +330,7 @@
         content: "\f00d";
        
       }
-       /* nav > label > i{
-         margin-right: 250px; 
-      } */
+     
       nav ul {
         position: fixed;
         top: 80px;
@@ -810,9 +808,7 @@ background-color: aliceblue;
   font-size: 500%;
 }
 
-/* #contact>div:nth-child(2)>div>div:nth-child(1)>img{
-  /* width: 40px; 
-} */
+ 
 #contact>div:nth-child(2)>div>div:nth-child(2){
   margin-left: 10%;
 }
@@ -820,12 +816,7 @@ background-color: aliceblue;
   color: rgb(89, 192, 236);
 }
 
-/* #imgc{
-  
-  margin-left: 5%;
-  border: 1px solid red;
-  /* width: 50px; 
-} */
+ 
 
 
 @media screen and (min-width:1200px) and (max-width:3000px) {
