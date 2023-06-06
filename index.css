@@ -166,11 +166,15 @@
 
   #resume-button-1{
     border: none;
+    /* border: 1px solid red; */
     background-color: transparent;
-  
+  /* margin: auto;
+  margin-top: 5%; */
   }
   #resume-button-1>a{
     color: white;
+    font-size: larger;
+
   }
   nav ul li button a{
     text-decoration: none;
@@ -653,9 +657,10 @@ grid-template-columns: repeat(4,1fr);
 }
 
 @media screen and (min-width:0px) and (max-width:600px) {
-
+#skills{margin: auto;}
   #skills>div:nth-child(2){
   grid-template-columns: repeat(2,1fr);
+  margin-left: 8%;
   }
   }
 
