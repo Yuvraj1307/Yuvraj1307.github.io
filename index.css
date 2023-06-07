@@ -12,7 +12,7 @@
     background-color: #1f1f20;
      
     position: relative;
-  
+  overflow-x: hidden;
   } 
  #user-detail-intro{margin-left: 3%;}
  
@@ -289,6 +289,8 @@
         font-weight: bold;
         margin-top: -10px;
         transition: all 1s ease-in;
+        /* border: 1px solid red; */
+        /* font-size: 1px; */
       }
       #user-detail-name:hover {
         transform: translatex(50px);
@@ -626,8 +628,14 @@
                       #img{
                         transform:scale(0.5);
                         /* margin:auto */
-                      margin-left: -20%;
+                      margin-left: -25%;
                       }
+
+                      #user-detail-name{
+                        /* border: 1px solid red; */
+                        font-size: 100%;
+                      }
+                   
                       }
     /* skills section */
 #skills{
